@@ -13,6 +13,12 @@ src-tauri/target/
 src-tauri/gen/
 **/*.rs.bk
 Cargo.lock
+*.pdb
+
+# Cargo generated folders
+/target
+/debug
+**/mutants.out*/
 
 # OS / editor
 .DS_Store
@@ -32,4 +38,3 @@ AGENTS.md
 SOUL.md
 MEMORY.md
 memory/
-
