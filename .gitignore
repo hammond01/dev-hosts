@@ -1,0 +1,35 @@
+# Node / frontend
+node_modules/
+dist/
+.npm-cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Rust / Tauri
+src-tauri/target/
+src-tauri/gen/
+**/*.rs.bk
+Cargo.lock
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Local planning / private notes (do not push)
+PROJECT_PLAN.md
+AGENTS.md
+SOUL.md
+MEMORY.md
+memory/
+
